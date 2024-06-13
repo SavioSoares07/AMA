@@ -288,18 +288,6 @@ main {
   position: relative;
 }
 
-#about .image::before {
-  content: "";
-  height: 100%;
-  width: 100%;
-  background: rgb(98 185 153);
-  position: absolute;
-  top: -16.8%;
-  right: 16.8%;
-  z-index: 0;
-  border-radius: 4px;
-}
-
 #about .image img {
   position: relative;
   border-radius: 4px;
@@ -327,7 +315,13 @@ main {
   border-radius: 0.25rem 0.25rem 0 0;
   text-align: center;
 }
-
+#button-empresa {
+  background-color: var(--color-base);
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+}
 .card i {
   display: block;
   margin-bottom: 1.5rem;
@@ -340,6 +334,9 @@ main {
   margin-bottom: 0.75rem;
 }
 
+.card p {
+  margin-bottom: 50px;
+}
 /*********************CONTACT************************/
 #contact .grid {
   gap: 4rem;
